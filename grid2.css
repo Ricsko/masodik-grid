@@ -1,0 +1,40 @@
+#grid-container{
+    margin: 0 auto;
+    display: grid;
+    width: 80%;
+    height: 600px;
+    grid-gap: 8px;
+    background-color: aquamarine;
+    padding: 10px;
+    justify-content: stretch;
+    align-content: stretch;
+}
+#grid-container > div{
+    background-color:darkgoldenrod;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+
+#item1{
+    grid-area: 1 / 1 / 2 / 7;
+}
+#item2{
+    grid-area: 2 / 1 / 4 / 2;
+}
+#item3{
+    grid-area: 2 / 2 / 3 / 5;
+}
+#item4{
+    grid-area: 2 / 5 / 3 / 7;
+}
+#item5{
+    grid-area: 3 / 2 / 4 / 7;
+}
+
+
+
+
